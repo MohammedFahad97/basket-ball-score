@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Orbitron&family=Roboto+Mono:wght@500&display=swap');
+@import url('http://fonts.cdnfonts.com/css/led-digital-7');
+body{
+    margin: 0%;
+    
+    background-color: #0d3f5e;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    background: #0a0001;
+    padding: 10px;
+    font-display: center;
+    font-size: 90px;
+   font-family: 'LED Digital 7', sans-serif;
+    color: red;
+    width: 120px;
+    margin: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+h3{
+    font-size: 100px;
+    color: whitesmoke;
+    text-shadow: 3px 3px darkred;
+    
+}
+button{
+    margin-top: 20px;
+    box-sizing: content-box;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: none;
+    font-family: 'LED Digital 7', sans-serif;
+    font-size: 20px;
+
+}
